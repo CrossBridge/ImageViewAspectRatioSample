@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="118" id="8NR-hg-SMm" customClass="CustomCell" customModule="ImageViewAspectRatioSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8NR-hg-SMm" id="dQQ-Oa-9vc">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="117"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kWr-VD-00c">
+                        <rect key="frame" x="18" y="18" width="318" height="81"/>
+                        <color key="backgroundColor" red="0.88792011969999995" green="0.88792011969999995" blue="0.88792011969999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kWr-VD-00c" firstAttribute="leading" secondItem="dQQ-Oa-9vc" secondAttribute="leadingMargin" constant="10" id="22y-8G-Qt6"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kWr-VD-00c" secondAttribute="trailing" constant="10" id="2cM-YO-WzN"/>
+                    <constraint firstItem="kWr-VD-00c" firstAttribute="top" secondItem="dQQ-Oa-9vc" secondAttribute="topMargin" priority="500" constant="10" id="Dfn-CF-bdm"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kWr-VD-00c" secondAttribute="bottom" constant="10" id="lBJ-qi-MEz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="thumbnailView" destination="kWr-VD-00c" id="IBQ-XS-9OA"/>
+            </connections>
+            <point key="canvasLocation" x="323" y="279"/>
+        </tableViewCell>
+    </objects>
+</document>
