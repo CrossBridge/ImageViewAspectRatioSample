@@ -111,6 +111,7 @@
 				TargetAttributes = {
 					22B9A04F1C83B21A00566350 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -272,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.ImageViewAspectRatioSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -284,6 +286,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.ImageViewAspectRatioSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
